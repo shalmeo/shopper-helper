@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/_bot-template3.x_.iml" filepath="$PROJECT_DIR$/.idea/_bot-template3.x_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shopper.iml" filepath="$PROJECT_DIR$/.idea/shopper.iml" />
     </modules>
   </component>
 </project>

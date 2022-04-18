@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42f6895-0c9d-4bb0-8796-c29834a95b2c" name="Changes" comment="">
+    <list default="true" id="763cc3b7-72f2-4053-8102-0930caf05b26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/_bot-template3.x_.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot/handlers/private/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot/handlers/private/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot/handlers/private/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot/handlers/private/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot/middlewares/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot/middlewares/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot/middlewares/acl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tgbot/middlewares/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot/middlewares/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tgbot/services/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tgbot/services/database/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,31 +21,77 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="26nVwFMLmUWMz6aAhkPG571Lvku" />
+  <component name="ProjectId" id="27vQO4fvfNktQhABp40fIwQPX7z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bot_test" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/shalmeo/projects/bot/shopper/bot.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="bot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="shopper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d42f6895-0c9d-4bb0-8796-c29834a95b2c" name="Changes" comment="" />
-      <created>1648059574692</created>
+      <changelist id="763cc3b7-72f2-4053-8102-0930caf05b26" name="Changes" comment="" />
+      <created>1650198048980</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648059574692</updated>
+      <updated>1650198048980</updated>
+      <workItem from="1650198055115" duration="163000" />
+      <workItem from="1650198252942" duration="16593000" />
+      <workItem from="1650291359503" duration="2481000" />
+      <workItem from="1650313994598" duration="230000" />
+      <workItem from="1650314292254" duration="7266000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shopper$bot.coverage" NAME="bot Coverage Results" MODIFIED="1650322020616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

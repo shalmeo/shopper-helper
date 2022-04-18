@@ -3,3 +3,4 @@ environs~=9.5.0
 sqlalchemy~=1.4.32
 asyncpg~=0.25.0
 aioredis~=2.0.1
+alembic~=1.7.7

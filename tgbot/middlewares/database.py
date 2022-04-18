@@ -1,8 +1,9 @@
 from typing import Any, Awaitable, Callable, Dict
-
 from aiogram import BaseMiddleware
 from aiogram.types import TelegramObject
 from sqlalchemy.orm import sessionmaker
+
+from tgbot.misc.repository import Repo
 
 
 class DBSession(BaseMiddleware):
@@ -18,8 +19,9 @@ class DBSession(BaseMiddleware):
 
         async with self.session() as session:
             data['session'] = session
-
+            data['repo'] = Repo(session)
             result = await handler(event, data)
 
             data.pop('session')
+            
             return result

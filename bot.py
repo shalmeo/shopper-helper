@@ -1,6 +1,8 @@
 import asyncio
 import logging
 
+from aiohttp import ClientSession
+
 from aiogram import Bot, Dispatcher
 from aiogram.dispatcher.fsm.storage.memory import MemoryStorage
 from aiogram.dispatcher.fsm.storage.redis import RedisStorage
@@ -22,8 +24,8 @@ async def main():
         level=logging.INFO,
         format=u'%(filename)s:%(lineno)d #%(levelname)-8s [%(asctime)s] - %(name)s - %(message)s',
     )
-    logger.info("Starting bot")
-    config = load_config(".env")
+    logger.info('Starting bot')
+    config = load_config('.env')
     
     engine = create_async_engine(
         get_connection_string(config.db), future=True, echo=False
@@ -41,6 +43,7 @@ async def main():
 
     bot = Bot(token=config.bot.token, parse_mode='HTML')
     dp = Dispatcher(storage=storage)
+    client_session = ClientSession()
 
     # setup
     middlewares.setup(dp, session_pool)
@@ -52,11 +55,11 @@ async def main():
     
     try:
         await bot.get_updates(offset=-1)
-        await dp.start_polling(bot, config=config)
+        await dp.start_polling(bot, config=config, client_session=client_session)
     finally:
         await storage.close()
         await bot.session.close()
-
+        await client_session.close()
 
 if __name__ == '__main__':
     try:
